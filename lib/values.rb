@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  groceries.values.flatten.sort
-binding.pry
+  groceries.values.flatten.sort[0]
+  
 end
